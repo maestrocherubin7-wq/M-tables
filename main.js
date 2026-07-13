@@ -48,7 +48,7 @@ btn.addEventListener("click",
                 ancienIndex= index
 
                 if(n > 0 ){
-                btn.innerHTML = "Voyel"
+                btn.innerHTML = "Voyel ale"
                 index = Math.floor(Math.random()*table.length)
                 aff.innerHTML = Question[index]
         }
